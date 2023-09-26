@@ -13,6 +13,7 @@ lspconfig.gopls.setup {
   settings = {
     gopls = {
       usePlaceholders = true,
+      staticcheck = true,
       analyses = {
         unusedparams = true,
       }
